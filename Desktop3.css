@@ -1,0 +1,157 @@
+.logo-rj-11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 223px;
+  height: 69px;
+  object-fit: cover;
+}
+.iternary1,
+.rupee-traveller1 {
+  position: absolute;
+  top: calc(50% - 17.5px);
+  left: 399px;
+  display: inline-block;
+  width: 169px;
+  height: 31px;
+  cursor: pointer;
+}
+.rupee-traveller1 {
+  top: calc(50% - 13.5px);
+  left: 549px;
+  width: 350px;
+}
+.about1,
+.community5,
+.home1 {
+  position: absolute;
+  top: calc(50% - 11.5px);
+  left: 1117px;
+  cursor: pointer;
+}
+.community5,
+.home1 {
+  top: calc(50% - 13.5px);
+  left: 899px;
+  display: inline-block;
+  width: 184px;
+  height: 31px;
+}
+.home1 {
+  top: calc(50% - 15.5px);
+  left: 257px;
+  width: 108px;
+}
+.frame3,
+.frame4 {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  width: 1203px;
+  height: 69px;
+  overflow: hidden;
+}
+.frame3 {
+  top: 8px;
+  left: 0;
+  width: 1216px;
+}
+.frame-child13 {
+  position: absolute;
+  top: 90px;
+  left: 179px;
+  background-color: var(--color-white);
+  width: 350px;
+  height: 23px;
+}
+.frame-inner1 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 2106px;
+  height: 902px;
+  background-image: url(C:\\Users\\laksh\\OneDrive\\Desktop\\web\\images\\HSM3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.coins-10 {
+  position: absolute;
+  top: 8px;
+  left: 37px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 159px;
+  height: 38px;
+}
+.coins-10-wrapper {
+  position: absolute;
+  top: 54px;
+  left: 912px;
+  border-radius: 100px;
+  background-color: #f7f4b3;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 218px;
+  height: 54px;
+}
+.a,
+.ellipse-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+}
+.a {
+  top: 7px;
+  left: 4px;
+  display: inline-block;
+  width: 82px;
+  height: 64px;
+}
+.vector-parent {
+  position: absolute;
+  top: 0;
+  left: 1317px;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  font-size: 64px;
+  color: var(--color-white);
+}
+.frame5,
+.frame6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2106px;
+  height: 912px;
+  overflow: hidden;
+}
+.frame5 {
+  top: 112px;
+  font-size: var(--font-size-13xl);
+}
+.desktop-3-child {
+  position: absolute;
+  width: calc(100% + 1px);
+  top: calc(50% - 425px);
+  right: -0.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 1px;
+}
+.desktop-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-2">
+      <div class="desktop-2-child"></div>
+      <div class="desktop-2-inner">
+        <div class="rectangle-parent">
+          <img class="frame-child" alt="" src="Images/search.jpg" />
+
+          <div class="search">
+            Search  
+          </div>
+        </div>
+      </div>
+      <div class="frame">
+        <img class="logo-rj-1" alt="" src="Images/logorj.png" />
+
+        <div class="iternary" id="iternaryText">Iternary</div>
+        <div class="rupee-traveller" id="rupeeTravellerText">
+          5000 Rupee Traveller
+        </div>
+        <div class="about" id="aboutText">About</div>
+        <div class="community">Community</div>
+        <div class="home" id="homeText">Home</div>
+        <div class="profile" id="profiletext">Profile</div>
+      </div>
+      <div class="frame1">
+        <img class="frame-item" id="Adv" alt="" src="Images/AdventureHot.jpg" />
+
+        <img class="frame-inner" alt="" src="Images/Beach_Retreats.jpg" />
+
+        <img class="frame-icon" alt="" src="Images/Culturalcap.jpg" />
+      </div>
+      <div class="frame2">
+        <img class="frame-child1" alt="" src="Images/NaturalWon.jpg" />
+
+        <img class="frame-child2" alt="" src="Images/HistoricalSit.jpg" />
+
+        <img class="frame-child3" alt="" src="Images/More.jpg" />
+      </div>
+    </div>
+
+    <script>
+      var iternaryText = document.getElementById("iternaryText");
+      if (iternaryText) {
+        iternaryText.addEventListener("click", function () {
+          window.location.href =
+            "https://www.thereturnjourney.com/itinerary/occasion";
+        });
+      }
+      
+      var rupeeTravellerText = document.getElementById("rupeeTravellerText");
+      if (rupeeTravellerText) {
+        rupeeTravellerText.addEventListener("click", function () {
+          window.location.href =
+            "https://www.thereturnjourney.com/5000RupeeTraveller";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function () {
+          window.location.href = "https://www.thereturnjourney.com/aboutus";
+        });
+      }
+      
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function () {
+          window.location.href = "https://www.thereturnjourney.com/";
+        });
+      }
+
+      var iternaryText = document.getElementById("Adv");
+      if (iternaryText) {
+        iternaryText.addEventListener("click", function () {
+          window.location.href = "Adv.html";
+        });
+      }
+
+      var profiletext = document.getElementById("profiletext");
+      if (profiletext) {
+        profiletext.addEventListener("click", function () {
+          window.location.href = "https://www.thereturnjourney.com/";
+        });
+      }
+      </script>
+  </body>
+</html>
